@@ -18,7 +18,7 @@ The script performs the following steps:
 2. **Checkout the Specific Commit**
 
    - It checks out the commit with hash `da1b1a2458666db01ee2fb98be190a70de16468b`.
-   - This commit corresponds to the exact codebase that was audited by PeckShield.
+   - This commit corresponds to the exact codebase that was [audited by PeckShield](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Revert-Lend-v1.0.pdf).
    - Ensuring the code matches the audited version is essential for accurate verification.
 
 3. **Install Dependencies**
