@@ -105,33 +105,6 @@ The script performs the following steps:
 - It will notify you if all source files match or if any differences are found.
 - If differences are found, it will print the diffs for you to inspect.
 
-## Customizing the Script
-
-- **Contract Addresses:**
-
-  - The script contains an array of contract addresses to verify.
-  - You can modify the `contractAddresses` array to include the contracts you wish to verify:
-
-    ```javascript
-    const contractAddresses = [
-      '0x74e6afef5705beb126c6d3bf46f8fad8f3e07825',
-      '0x9F703BFccd04389725FbaD7Bc50F2E345583d506',
-      // Add other contract addresses here
-    ];
-    ```
-
-- **Adjusting Delays:**
-
-  - The script includes a delay between API calls to avoid exceeding rate limits.
-  - If necessary, you can adjust the delay duration in the `sleep` function calls.
-
-- **Keeping the Cloned Repository:**
-
-  - If you wish to keep the cloned repository after verification, you can comment out or remove the cleanup step in the script:
-
-    ```javascript
-    // fs.removeSync(LOCAL_REPO_DIR);
-    ```
 
 ## Understanding the Verification Process
 
