@@ -68,7 +68,7 @@ The script performs the following steps:
 ## Why This Matters
 
 - **Transparency:** Allows anyone to verify that the deployed contracts are exactly the ones that were audited, fostering trust in the protocol.
-- **Security:** Ensures that no unauthorized changes have been made to the contracts since the audit, which could introduce vulnerabilities or malicious code.
+- **Security:** Ensures that no changes have been made to the contracts since the audit, which could introduce vulnerabilities or malicious code.
 - **Community Confidence:** Provides the community with tools to independently verify the integrity of the contracts they interact with.
 
 ## How to Use the Script
@@ -140,8 +140,7 @@ The script performs the following steps:
 
 - **Non-Upgradable Contracts:**
 
-  - Since the contracts are non-upgradable, verifying the deployed code matches the audited code is critical.
-  - Any discrepancy could indicate unauthorized changes or potential vulnerabilities.
+  - It is worth noting that Revert Lend protocol contracts are non-upgradable, assuring no changes can be made to the deployed contracts.
 
 - **Independent Verification:**
 
