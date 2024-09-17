@@ -149,8 +149,7 @@ The script performs the following steps:
 
 ## Conclusion
 
-This script serves as a tool for transparency and security within the DeFi community. By automating the verification process, it empowers users, developers, and auditors to ensure that the deployed smart contracts are exactly those that were audited and intended for deployment. This helps maintain trust, security, and integrity in the ecosystem.
-
+This script serves as a tool for transparency and security. By automating the verification process, it empowers users, developers, and auditors to ensure that the deployed smart contracts are exactly those that were audited and intended for deployment.
 ---
 
 **Note:** Always make sure to understand and verify scripts before running them, especially when they interact with external systems or handle critical data.
